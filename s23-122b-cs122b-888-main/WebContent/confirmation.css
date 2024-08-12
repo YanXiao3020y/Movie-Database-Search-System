@@ -1,0 +1,34 @@
+body {
+    background-image: url(https://img.freepik.com/free-vector/background-fireworks-dark-sky_1308-36481.jpg);
+    background-size: cover;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#navbar h4{
+    display: inline-block;
+    margin: 0 10px; /* add some space between headings */
+    color: greenyellow;
+}
+#navbar h4:hover{
+    color: whitesmoke;
+}
+#navbar #home:hover{
+    color: red;
+}
+#navbar #home{
+    font-size: 35px;
+}
+
+#form {
+    margin-top: 5%;
+}
+
+#form h1{
+    color: yellow;
+}
+
+th {
+    color: whitesmoke;
+}

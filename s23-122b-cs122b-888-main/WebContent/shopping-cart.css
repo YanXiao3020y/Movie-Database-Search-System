@@ -1,0 +1,40 @@
+body {
+    background-image: url(https://us.123rf.com/450wm/abluecup/abluecup1307/abluecup130700191/21127181-a-3d-people-running-with-a-shopping-cart-in-hand.jpg);
+    /*background-size: cover;*/
+    background-size: 70%;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#navbar h4{
+    display: inline-block;
+    margin: 0 10px; /* add some space between headings */
+    color: greenyellow;
+}
+#navbar h4:hover{
+    color: whitesmoke;
+}
+#navbar #home:hover{
+    color: red;
+}
+#navbar #home{
+    font-size: 35px;
+}
+
+#form {
+    margin-top: 5%;
+}
+
+#form h1 th{
+    color: black;
+}
+
+button:hover
+{
+    background-color: navajowhite;
+}
+
+#proceedPayment {
+    margin-left: 40%;
+}

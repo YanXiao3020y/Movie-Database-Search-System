@@ -1,0 +1,60 @@
+<!-- This page will be redirected from any url if you are not logged in -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login to Fablix</title>
+    <link href="payment.css" rel="stylesheet">
+</head>
+<body>
+    <div id="navbar">
+    <a href="main.html"><h4 id="home">Fabflix</h4></a>
+    <a href="index.html"><h4 id="movie_list">MovieList</h4></a> <!-- fix later ??? delete the link -->
+    <a href="top20Movie.html"><h4 id="top20">Top20</h4></a>  <!-- fix later ??? delete the link -->
+    <a href="main.html"><h4 id="search">Search</h4></a>
+    <a href="shopping-cart.html"><h4 id="checkout">Checkout</h4></a>
+    </div>
+
+    <div class="card">
+        <br>
+        <h1>Payment Information</h1>
+        <h4>Payment Details</h4>
+        <!-- Set the method to POST to avoid showing the username/password in the URL
+             The default action is disabled to allow your own implementation. -->
+        <form id="credit_card_form" method="post" action="#">
+            <label>
+                <input name="cardNumber" placeholder="Card Number" type="text" style="width:200px">
+            </label>
+            <br><br>
+            <label>
+                <input name="firstName" placeholder="First Name" type="text" style="width:200px">
+            </label>
+            <br><br>
+            <label>
+                <input name="lastName" placeholder="Last Name" type="text" style="width:200px">
+            </label>
+            <br><br>
+            <label>
+                <input type="date" name="experationDate" placeholder="mm/dd/yyyy" value="" min="1997-01-01" max="2030-12-31" style="width:200px">
+            </label>
+            <br><br>
+            <!--    <input type="submit" value="Final Payment: $" style="width:200px">-->
+            <button style="width:200px" id=finalPayment></button>
+            <br><br>
+            <input id="place-order" type="submit" value="Place Order" style="width:200px">
+        </form>
+
+        <br><br>
+        <div id="credit_card_error_message"></div>
+        <br><br>
+    </div>
+
+
+
+    <!-- include jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- include our own JS file -->
+    <script src="payment.js"></script>
+
+</body>
+</html>

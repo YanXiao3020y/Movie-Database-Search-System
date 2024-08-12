@@ -1,0 +1,63 @@
+body {
+    background-image: url(https://t3.ftcdn.net/jpg/00/96/69/42/360_F_96694261_hrNZBz9VJNfMAqFwzKY1rNwI4YoZxhhV.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.table {
+    width: 90%;
+    opacity: 0.8;
+    /*margin-top: 50px;*/
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+
+}
+
+h1 {
+    margin-top: 10%;
+    text-align: center;
+}
+
+.movie_table_body, th,thead {
+    text-align: center;
+}
+
+
+
+
+#navbar h4, #navbar search_input_form{
+    display: inline-block;
+    margin: 0 10px; /* add some space between headings */
+    color: greenyellow;
+}
+#navbar h4:hover{
+    color: whitesmoke;
+}
+#navbar #home:hover{
+    color: red;
+}
+#navbar #home{
+    font-size: 35px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 25%;
+}
+
+label {
+    margin-right: 1em;
+}
+
+input {
+    margin-top: -1%;
+}
+
+#prevNext {
+    margin-left: 45%;
+}

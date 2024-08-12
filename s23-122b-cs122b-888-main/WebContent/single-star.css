@@ -1,0 +1,78 @@
+body {
+    background-image: url(https://deadline.com/wp-content/uploads/2022/01/New-York-Red-Carpet.jpg?w=681&h=383&crop=1);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*#home {*/
+/*    margin-left: 2%;*/
+/*    margin-top: -9%;*/
+/*    color: whitesmoke;*/
+/*    position: fixed;*/
+/*}*/
+/*#home1 {*/
+/*    margin-left: 3%;*/
+/*    margin-top: -6.5%;*/
+/*    color: #eca2a2;*/
+/*    position: fixed;*/
+/*}*/
+
+#home:hover, #home1:hover {
+    color: #4343f3;
+}
+
+.table {
+    width: 90%;
+    opacity: 0.8;
+    /*margin-top: 50px;*/
+    margin-top: 10%;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    background-color: whitesmoke;
+    max-height: 20%;
+    max-width: 80%;
+
+}
+
+h3, h1{
+    text-align: center;
+}
+
+/*.movie_table {*/
+/*    margin-top: -10%;*/
+/*}*/
+
+.movie_table_body, th {
+    text-align: center;
+}
+
+
+#navbar h4{
+    display: inline-block;
+    margin: 0 10px; /* add some space between headings */
+    color: greenyellow;
+}
+#navbar h4:hover{
+    color: whitesmoke;
+}
+#navbar #home:hover{
+    color: red;
+}
+#navbar #home{
+    font-size: 35px;
+}
+
+#form {
+    margin-top: 5%;
+}
+
+#form h1{
+    color: yellow;
+}
+
+/*th {*/
+/*    color: whitesmoke;*/
+/*}*/

@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Shopping Cart</title>
+    <link href="shopping-cart.css" rel="stylesheet">
+</head>
+<body>
+    <div id="navbar">
+        <a href="main.html"><h4 id="home">Fabflix</h4></a>
+        <a href="index.html"><h4 id="movie_list">MovieList</h4></a> <!-- fix later ??? delete the link -->
+        <a href="top20Movie.html"><h4 id="top20">Top20</h4></a>  <!-- fix later ??? delete the link -->
+        <a href="main.html"><h4 id="search">Search</h4></a>
+        <a href="shopping-cart.html"><h4 id="checkout">Checkout</h4></a>
+    </div>
+
+    <div id="form">
+        <h1>Shopping Cart</h1>
+        <table id=movie_table class="table table-striped">
+            <thead>
+            <tr>
+                <th>Title</th>
+                <th>Quantity</th>
+                <th>Delete</th>
+                <th>Price</th>
+                <th>Total</th>
+            </tr>
+            </thead>
+
+            <!-- Table body is left empty here, will be populated with the data retrieved with single-star.js -->
+            <!-- single-star.js will find this html element by it's id "movie_table_body" -->
+            <tbody id=cart_list></tbody>
+        </table>
+        <div id="proceedPayment"></div>
+    <!--<a href="payment.html" class="button" style="font-size: x-large">Proceed to Payment</a>-->
+    </div>
+
+    <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script>
+    <script type='text/javascript' src='shopping-cart.js'></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+body {
+    background-image: url(https://wallpaperaccess.com/full/1900901.jpg);
+    /*background-color: #d3d3d3;*/
+    background-size: cover;
+    overflow-x: hidden;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+#navbar h4, #navbar search_input_form{
+    display: inline-block;
+    margin: 0 10px; /* add some space between headings */
+    color: greenyellow;
+    font-size: 25px;
+}
+#navbar h4:hover{
+    color: whitesmoke;
+}
+#navbar #home:hover{
+    color: red;
+}
+#navbar #home{
+    font-size: 35px;
+}
+
+
+h1, th{
+    color: black;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    background-color: whitesmoke;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
+}
+
+#place-order:hover {
+    background-color: navajowhite;
+    text-decoration: underline;
+}
+
+#credit_card_error_message {
+    color: red;
+}

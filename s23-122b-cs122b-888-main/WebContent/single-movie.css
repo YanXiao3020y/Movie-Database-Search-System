@@ -1,0 +1,71 @@
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFkyMOERlooby8sZ1StkCQFPepuu1iz-3Y9Onq6RrGmg&usqp=CAU&ec=48665699);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.table {
+    width: 90%;
+    opacity: 0.8;
+    /*margin-top: 50px;*/
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+
+}
+
+/*#home {*/
+/*    margin-left: 2%;*/
+/*    margin-top: -3.5%;*/
+/*    color: whitesmoke;*/
+/*    position: fixed;*/
+/*}*/
+/*#home1 {*/
+/*    margin-left: 3%;*/
+/*    margin-top: -1%;*/
+/*    color: #eca2a2;*/
+/*    position: fixed;*/
+/*}*/
+
+#home:hover, #home1:hover {
+    color: #4343f3;
+}
+
+h3, h1, #movie_info{
+    text-align: center;
+}
+
+.detail_table_body, th, tr, thread {
+    text-align: center;
+}
+
+
+
+#navbar h4{
+    display: inline-block;
+    margin: 0 10px; /* add some space between headings */
+    color: greenyellow;
+}
+#navbar h4:hover{
+    color: whitesmoke;
+}
+#navbar #home:hover{
+    color: red;
+}
+#navbar #home{
+    font-size: 35px;
+}
+
+#form {
+    margin-top: 5%;
+}
+
+#form h1{
+    color: yellow;
+}
+
+/*th {*/
+/*    color: whitesmoke;*/
+/*}*/
